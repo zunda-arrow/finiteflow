@@ -67,8 +67,8 @@ set(LIBS ${LIBS} ${CMAKE_THREAD_LIBS_INIT})
 include(TestBigEndian)
 TEST_BIG_ENDIAN(FFLOW_BIG_ENDIAN)
 configure_file(
-    {CMAKE_CURRENT_SOURCE_DIR}/include/fflow/config.hh.in
-    {CMAKE_CURRENT_SOURCE_DIR}/include/fflow/config.hh
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/fflow/config.hh.in"
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/fflow/config.hh"
 )
 
 include_directories(

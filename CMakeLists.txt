@@ -75,8 +75,6 @@ include_directories(
     BEFORE
     ${CMAKE_CURRENT_SOURCE_DIR}/src
     ${CMAKE_CURRENT_SOURCE_DIR}/include
-    ${CMAKE_CURRENT_BINARY_DIR}/src
-    ${CMAKE_CURRENT_BINARY_DIR}/include
     )
 
 set(FFLOW_SOURCES
